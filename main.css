@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.work-wrapper {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.work-containers {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa9;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+a {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.polina-container {
+
+}
+.polina-link {
+}
+.radchenko-container {
+}
+.radchenko-link {
+}
+.bjoko-container {
+}
